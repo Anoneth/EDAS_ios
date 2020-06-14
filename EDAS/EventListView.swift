@@ -20,6 +20,7 @@ struct EventListView: View {
     
     @ObservedObject var tokenHolder = TokenHolder()
     @ObservedObject var isLoginView = ObservableBool()
+    @ObservedObject var isMapView = ObservableBool()
     
     @State var login = ""
     @State var password = ""
@@ -60,7 +61,10 @@ struct EventListView: View {
                 Alert(title: Text(self.alertTitle), message: Text(self.alertMsg), dismissButton: .default(Text("ok"), action: {
                     self.showAlert = false
                 }))
-            })
+                })
+                .sheet(isPresented: self.$isMapView.value, content: {
+                        MapView()
+                })
         }
     }
 }

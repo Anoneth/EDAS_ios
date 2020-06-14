@@ -47,13 +47,16 @@ extension EventListView {
                 self.isLoginView.value = true
             }))
         }
+        buttons.append(Alert.Button.default(Text(NSLocalizedString("map", comment: "")), action: {
+            self.isMapView.value = true
+        }))
         buttons.append(Alert.Button.cancel())
         return buttons
     }
     
     func loadEvents() {
         let params = ["token": self.tokenHolder.token]
-        let url = URL(string: "https://56fbea53-d9ac-49e8-acca-c875a163c928.mock.pstmn.io/load")!
+        let url = URL(string: "server/load")!
         let session = URLSession.shared
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
@@ -126,7 +129,7 @@ extension EventListView {
             return
         }
         let params = ["token": self.tokenHolder.token, "events": jsonEvents]
-        let url = URL(string: "https://56fbea53-d9ac-49e8-acca-c875a163c928.mock.pstmn.io/save")!
+        let url = URL(string: "server/save")!
         let session = URLSession.shared
         var request = URLRequest(url: url)
         request.httpMethod = "POST"

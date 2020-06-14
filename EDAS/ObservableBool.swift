@@ -15,6 +15,5 @@ class ObservableBool: ObservableObject {
     
     func set(value: Bool) {
         self.value = value
-        //didChange.send(self.value)
     }
 }

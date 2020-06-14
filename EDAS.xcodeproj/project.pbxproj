@@ -26,6 +26,7 @@
 		B87BE13724960D8A001E5452 /* ObservableBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BE13624960D8A001E5452 /* ObservableBool.swift */; };
 		B87BE13924960D8F001E5452 /* TokenHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BE13824960D8F001E5452 /* TokenHolder.swift */; };
 		B87BE13D24960FA8001E5452 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B87BE13F24960FA8001E5452 /* Localizable.strings */; };
+		B87BE1422496191D001E5452 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BE1412496191D001E5452 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		B87BE13A24960EBA001E5452 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		B87BE13E24960FA8001E5452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B87BE14024960FB4001E5452 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B87BE1412496191D001E5452 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		B87BE0F224960C36001E5452 /* EDAS */ = {
 			isa = PBXGroup;
 			children = (
+				B87BE1412496191D001E5452 /* MapView.swift */,
 				B87BE13F24960FA8001E5452 /* Localizable.strings */,
 				B87BE13824960D8F001E5452 /* TokenHolder.swift */,
 				B87BE13624960D8A001E5452 /* ObservableBool.swift */,
@@ -311,6 +314,7 @@
 				B87BE13724960D8A001E5452 /* ObservableBool.swift in Sources */,
 				B87BE13124960D71001E5452 /* EventListView+Extension.swift in Sources */,
 				B87BE12924960D09001E5452 /* Event+Extension.swift in Sources */,
+				B87BE1422496191D001E5452 /* MapView.swift in Sources */,
 				B87BE12B24960D4D001E5452 /* EventEditView.swift in Sources */,
 				B87BE0F624960C36001E5452 /* SceneDelegate.swift in Sources */,
 				B87BE13524960D7F001E5452 /* LoginView.swift in Sources */,

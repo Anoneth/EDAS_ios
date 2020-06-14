@@ -64,7 +64,7 @@ struct LoginView: View {
     func doLogin() {
         let params = ["login": self.login, "password": self.password]
         //let url = URL(string: "http://10.0.2.2:8080/Server_war/auth")!
-        let url = URL(string: "https://56fbea53-d9ac-49e8-acca-c875a163c928.mock.pstmn.io/auth")!
+        let url = URL(string: "server/auth")!
         let session = URLSession.shared
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
