@@ -1,0 +1,40 @@
+/*
+  Localizable.strings
+  EDAS
+
+  Created by Bla bla on 29.05.2020.
+  Copyright © 2020 Bla bla. All rights reserved.
+*/
+"appName" = "EDAS";
+"edit" = "Edit";
+"new" = "New";
+"done" = "Done";
+"createNewEvent" = "Create a new event...";
+"menu" = "Synchronization";
+"menuDetails" = "Required internet connection";
+"doLoad" = "Load from cloud";
+"doSave" = "Save to cloud";
+"name" = "Name";
+"date" = "Date";
+"time" = "Time";
+"desc" = "Description";
+"optional" = "Optional";
+"today" = "Today";
+"tomorrow" = "Tomorrow";
+"past" = "Past";
+"ok" = "Ok";
+"doAuth" = "Login";
+"auth" = "Authorization";
+"success" = "Success";
+"internalError" = "Internal error";
+"serverError" = "Server error";
+"notifyAtDay" = "Remind on a day";
+"dateTime" = "Date and time";
+"doLogin" = "Login";
+"login" = "Login";
+"password" = "Password";
+"back" = "Back";
+"error" = "Error";
+"result" = "Result";
+"logout" = "Logout";
+"menuTitle" = "Menu";
